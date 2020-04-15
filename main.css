@@ -16,6 +16,13 @@ body {
 	font-style: normal;
 }
 
+p {
+	font-family: 'troutbeck_demoregular';
+	color: #fff;
+	text-align: center;
+	padding-left: 120px;
+}
+
 /* Banner details */
 
 .banner {
@@ -167,10 +174,10 @@ a:hover {
 /* About Page */
 
 .abouttitle {
-	font-size: 150px;
+	font-size: 125px;
 	font-family: troutbeck_demoregular;
 	color: #fff;
 	text-align: center;
 	padding-top: 20px;
-	padding-left: 110px
+	padding-left: 120px
 }
