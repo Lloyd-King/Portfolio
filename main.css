@@ -1,3 +1,6 @@
+
+/* All page infomation */
+
 body {
 	Margin: 0px;
 	Padding: 0;
@@ -12,6 +15,8 @@ body {
 	font-weight: normal;
 	font-style: normal;
 }
+
+/* Banner details */
 
 .banner {
 	height: 100%;
@@ -54,6 +59,8 @@ a:hover {
 	color:#ff003a;
 }
 
+/* Homepage */
+
 .imageBanner {
 	background: url('./images/background.png');
 	background-position: center;
@@ -90,6 +97,8 @@ a:hover {
 	color: #fff;
 	padding-left: 475px;
 }
+
+/* Social Links */
 
 .socialrow {
 	float: left;
@@ -134,4 +143,34 @@ a:hover {
 #instagramImage {
 	display: inline-block;
 	
+}
+
+/* Pages other than Home */
+
+.socialrowpage {
+	float: left;
+	width: 33.33%;
+	padding-left: 775px;
+}
+
+.pageback {
+	background: url('./images/fullpage.png');
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: left;
+	flex-direction: column;
+
+}
+
+/* About Page */
+
+.abouttitle {
+	font-size: 150px;
+	font-family: troutbeck_demoregular;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 110px
 }
