@@ -1,0 +1,27 @@
+Short cuts	
+
+	
+Image		
+
+<img src="" alt="">
+
+Hyperlink
+
+<a href="" target="_blank"> Text for link here </a>
+
+Lists
+
+Bullet point list
+
+<ul>
+<li></li>
+</ul>
+
+Number List 
+
+<ol>
+<li></li>
+</ol>
+
+Button
+<button type="">submit</button>
