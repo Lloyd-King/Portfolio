@@ -204,6 +204,8 @@ a:hover {
 .gitlink {
 	font-family: troutbeck_demoregular;
 	color: #fff;
+	width: fit-content;
+	align-items: baseline;
 }
 
 .gitlink:hover {
