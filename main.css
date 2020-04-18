@@ -205,6 +205,7 @@ a:hover {
 	color: #fff;
 	width: fit-content;
 	align-items: baseline;
+	font-size: 39px;
 }
 
 .gitlink:hover {
@@ -212,6 +213,8 @@ a:hover {
 }
 
 .linkContainer {
+	padding-top: 20px;
+	padding-bottom: 20px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
