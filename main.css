@@ -173,6 +173,17 @@ a:hover {
 
 /* About Page */
 
+.pagebackabout {
+	background: url('./images/fullpage.png');
+	background-size: cover;
+	width: 100vw;
+	height: 1200px;
+	display: flex;
+	align-items: left;
+	flex-direction: column;
+}
+
+
 .abouttitle {
 	font-size: 125px;
 	font-family: troutbeck_demoregular;
@@ -200,6 +211,14 @@ a:hover {
 	padding-top: 50px;
 }
 
+.about3 {
+	font-family: troutbeck_demoregular;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding-left: 120px;
+	padding-top: 50px;
+}
 .gitlink {
 	font-family: troutbeck_demoregular;
 	color: #fff;
