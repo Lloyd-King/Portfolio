@@ -176,7 +176,7 @@ a:hover {
 .pagebackabout {
 	background: url('./images/fullpage.png');
 	background-size: cover;
-	width: 100vw;
+	width: 1582px;
 	height: 2600px;
 	display: flex;
 	align-items: left;
