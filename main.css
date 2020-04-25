@@ -157,7 +157,7 @@ a:hover {
 .socialrowpage {
 	float: left;
 	width: 33.33%;
-	padding-left: 725px;
+	padding-left: 805px;
 }
 
 .pageback {
@@ -176,7 +176,7 @@ a:hover {
 .pagebackabout {
 	background: url('./images/fullpage.png');
 	background-size: cover;
-	width: 1582px;
+	width: 100vw;
 	height: 2600px;
 	display: flex;
 	align-items: left;
@@ -281,4 +281,31 @@ a:hover {
 	padding-bottom: 20px;
 	align-items: center;
 	padding-left: 20px;
+}
+
+/* Portfolio Page */
+
+.topportfolio{
+	font-family: troutbeck_demoregular;
+	font-size: 85px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+	vertical-align: middle;
+}
+
+.portfoliologo{
+	width: 275px;
+	height: 150px;
+	padding-left: 300px;
+	padding-top: 100px;
+}
+
+.port1 {
+	font-family: troutbeck_demoregular;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding-left: 120px;
+	padding-top: 50px;
 }
