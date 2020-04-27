@@ -328,3 +328,17 @@ a:hover {
 	padding-left: 120px;
 	padding-top: 30px;
 }
+
+.skillsimg {
+	height: 50px;
+	width: 50px;
+	padding-left: 400px;
+	padding-top:50px;
+}
+
+.testport {
+	font-family: troutbeck_demoregular;
+	color: #fff;
+	font-size: 30px;
+	text-align: mid;
+}
