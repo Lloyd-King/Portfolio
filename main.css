@@ -333,13 +333,34 @@ a:hover {
 .skillsimg {
 	height: 50px;
 	width: 50px;
-	padding-left: 400px;
-	padding-top:50px;
+	padding-left:150px;
+	padding-top:100px;
 }
 
-.testport {
+.rowport1 {
 	font-family: troutbeck_demoregular;
 	color: #fff;
 	font-size: 30px;
-	text-align: mid;
+	text-align: middle;
+	padding-left: 165px;
+}
+
+.rowport1::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.rowport2 {
+	font-family: troutbeck_demoregular;
+	color: #fff;
+	font-size: 30px;
+	text-align: middle;
+	padding-left: 350px;
+}
+
+.rowport2::after{
+	content: "";
+	clear: both;
+	display: table;
 }
