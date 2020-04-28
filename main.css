@@ -190,7 +190,8 @@ a:hover {
 	color: #fff;
 	text-align: center;
 	padding-top: 20px;
-	padding-left: 120px
+	padding-left: 120px;
+	text-decoration: underline;
 }
 
 .about1 {
