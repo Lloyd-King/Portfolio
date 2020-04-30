@@ -397,3 +397,33 @@ a:hover {
 	clear: both;
 	display: table;
 }
+
+/* Contact Page */
+
+.pagebackcontact {
+	background: url('./images/fullpage.png');
+	background-size: cover;
+	width: 100vw;
+	height: 860px;
+	display: flex;
+	align-items: left;
+	flex-direction: column;
+}
+
+.contact1 {
+	font-family: troutbeck_demoregular;
+	color: #fff;
+	font-size: 60px;
+	text-align: middle;
+	padding-left: 850px;
+	padding-top: 90px;
+	text-decoration: underline;
+}
+
+.contactsheet{
+	font-family: troutbeck_demoregular;
+	color: #fff;
+	font-size: 30px;
+	padding-left: 850px;
+	padding-top: 90px;
+}
