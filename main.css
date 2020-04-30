@@ -361,7 +361,7 @@ a:hover {
 	color: #fff;
 	font-size: 30px;
 	text-align: middle;
-	padding-left: 165px;
+	padding-left: 255px;
 }
 
 .rowport1::after{
@@ -375,10 +375,24 @@ a:hover {
 	color: #fff;
 	font-size: 30px;
 	text-align: middle;
-	padding-left: 350px;
+	padding-left: 460px;
 }
 
 .rowport2::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.rowport3 {
+	font-family: troutbeck_demoregular;
+	color: #fff;
+	font-size: 30px;
+	text-align: middle;
+	padding-left: 570px;
+}
+
+.rowport3::after{
 	content: "";
 	clear: both;
 	display: table;
