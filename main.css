@@ -360,7 +360,8 @@ a:hover {
 	font-family: troutbeck_demoregular;
 	color: #fff;
 	font-size: 30px;
-	text-align: middle;
+	justify-content: center;
+	align-items: center;
 	padding-left: 255px;
 }
 
@@ -374,7 +375,8 @@ a:hover {
 	font-family: troutbeck_demoregular;
 	color: #fff;
 	font-size: 30px;
-	text-align: middle;
+	justify-content: center;
+	align-items: center;
 	padding-left: 460px;
 }
 
@@ -388,7 +390,8 @@ a:hover {
 	font-family: troutbeck_demoregular;
 	color: #fff;
 	font-size: 30px;
-	text-align: middle;
+	justify-content: center;
+	align-items: center;
 	padding-left: 570px;
 }
 
