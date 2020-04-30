@@ -330,11 +330,30 @@ a:hover {
 	padding-top: 30px;
 }
 
+.port4 {
+	font-family: troutbeck_demoregular;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding-left: 120px;
+	padding-top: 30px;
+}
+
+.port5 {
+	font-family: troutbeck_demoregular;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding-left: 120px;
+	padding-top: 50px;
+	text-decoration: underline;
+}
+
 .skillsimg {
 	height: 50px;
 	width: 50px;
 	padding-left:150px;
-	padding-top:100px;
+	padding-top:70px;
 }
 
 .rowport1 {
