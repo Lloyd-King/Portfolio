@@ -423,6 +423,15 @@ a:hover {
 	text-decoration: underline;
 }
 
+.contact2 {
+	font-family: troutbeck_demoregular;
+	color: #fff;
+	font-size: 60px;
+	text-align: middle;
+	padding-left: 850px;
+	padding-top: 90px;
+}
+
 .contactsheet{
 	font-family: troutbeck_demoregular;
 	color: #fff;
@@ -430,3 +439,9 @@ a:hover {
 	padding-left: 850px;
 	padding-top: 90px;
 }
+
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+} 
