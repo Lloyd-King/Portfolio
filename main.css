@@ -15,6 +15,38 @@ body {
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'titblack';
+	src: url("font/black/TitilliumWeb-Black.woff2") format('woff2'),
+		url("font/black/TitilliumWeb-Black.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'titbold';
+	src: url("font/bold/TitilliumWeb-Bold.woff2") format('woff2'),
+		url("font/black/TitilliumWeb-Bold.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'titreg';
+	src: url("font/reg/TitilliumWeb-Regular.woff2") format('woff2'),
+		url("font/reg/TitilliumWeb-Regular.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'titsemi';
+	src: url("font/semi/TitilliumWeb-SemiBold.woff2") format('woff2'),
+		url("font/semi/TitilliumWeb-SemiBold.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 p {
 	font-family: 'troutbeck_demoregular';
 	color: #fff;
