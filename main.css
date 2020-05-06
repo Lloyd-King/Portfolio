@@ -320,18 +320,20 @@ a:hover {
 
 .topportfolio{
 	font-family: troutbeck_demoregular;
-	font-size: 85px;
+	font-size: 125px;
 	color: #fff;
 	text-align: center;
 	padding-bottom: 20px;
 	vertical-align: middle;
+	letter-spacing: 2px;
+	justify-content: center;
 }
 
 .portfoliologo{
 	width: 275px;
 	height: 150px;
-	padding-left: 300px;
-	padding-top: 100px;
+	padding-left: 50px;
+	padding-top: 50px;
 }
 
 .port1 {
@@ -341,11 +343,11 @@ a:hover {
 	font-size: 25px;
 	padding-left: 120px;
 	padding-top: 50px;
-	letter-spacing: 0.2px;
+	letter-spacing: -1px;
 }
 
 .port2 {
-	font-family: titbold;
+	font-family: troutbeck_demoregular;
 	color: #fff;
 	text-align: center;
 	font-size: 40px;
@@ -362,26 +364,16 @@ a:hover {
 	font-size: 25px;
 	padding-left: 120px;
 	padding-top: 30px;
-	letter-spacing: 0.2px;
+	letter-spacing: -1px;
 }
 
 .port4 {
-	font-family: troutbeck_demoregular;
+	font-family: titreg;
 	color: #fff;
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 	padding-left: 120px;
 	padding-top: 30px;
-}
-
-.port5 {
-	font-family: troutbeck_demoregular;
-	color: #fff;
-	text-align: center;
-	font-size: 30px;
-	padding-left: 120px;
-	padding-top: 50px;
-	text-decoration: underline;
 }
 
 .skillsimg {
@@ -392,12 +384,13 @@ a:hover {
 }
 
 .rowport1 {
-	font-family: troutbeck_demoregular;
+	font-family: titreg;
 	color: #fff;
-	font-size: 30px;
+	font-size: 20px;
 	justify-content: center;
 	align-items: center;
-	padding-left: 255px;
+	padding-left: 265px;
+	letter-spacing: -1px;
 }
 
 .rowport1::after{
@@ -407,12 +400,13 @@ a:hover {
 }
 
 .rowport2 {
-	font-family: troutbeck_demoregular;
+	font-family: titreg;
 	color: #fff;
-	font-size: 30px;
+	font-size: 20px;
 	justify-content: center;
 	align-items: center;
-	padding-left: 460px;
+	padding-left: 470px;
+	letter-spacing: -1px;
 }
 
 .rowport2::after{
@@ -422,12 +416,13 @@ a:hover {
 }
 
 .rowport3 {
-	font-family: troutbeck_demoregular;
+	font-family: titreg;
 	color: #fff;
-	font-size: 30px;
+	font-size: 20px;
 	justify-content: center;
 	align-items: center;
-	padding-left: 570px;
+	padding-left: 560px;
+	letter-spacing: -1px;
 }
 
 .rowport3::after{
