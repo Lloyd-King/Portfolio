@@ -319,14 +319,15 @@ a:hover {
 /* Portfolio Page */
 
 .topportfolio{
+	vertical-align: middle;
 	font-family: troutbeck_demoregular;
 	font-size: 125px;
 	color: #fff;
 	text-align: center;
 	padding-bottom: 20px;
-	vertical-align: middle;
 	letter-spacing: 2px;
 	justify-content: center;
+	display: inline-block;
 }
 
 .portfoliologo{
@@ -429,6 +430,14 @@ a:hover {
 	content: "";
 	clear: both;
 	display: table;
+}
+
+.socialrowport {
+	justify-content: center;
+	width: 33.33%;
+	padding-top: 100px;
+	padding-left: 785px;
+	padding-bottom: 70px;
 }
 
 /* Contact Page */
