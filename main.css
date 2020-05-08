@@ -227,65 +227,72 @@ a:hover {
 }
 
 .about1 {
-	font-family: troutbeck_demoregular;
+	font-family: titreg;
 	color: #fff;
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 	padding-left: 120px;
 	padding-top: 50px;
+	letter-spacing: -1px;
 }
 
 .about2 {
-	font-family: troutbeck_demoregular;
+	font-family: titreg;
 	color: #fff;
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 	padding-left: 120px;
 	padding-top: 50px;
+	letter-spacing: -1px;
 }
 
 .about3 {
-	font-family: troutbeck_demoregular;
+	font-family: titreg;
 	color: #fff;
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 	padding-left: 120px;
-	padding-top: 50px;
+	padding-top: 30px;
+	letter-spacing: -1px;
 }
 
 .about4 {
-	font-family: troutbeck_demoregular;
+	font-family: titreg;
 	color: #fff;
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 	padding-left: 120px;
 	padding-top: 50px;
+	letter-spacing: -1px;
 }
 
 .about5 {
-	font-family: troutbeck_demoregular;
+	font-family: titreg;
 	color: #fff;
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 	padding-left: 120px;
 	padding-top: 50px;
+	letter-spacing: -1px;
 }
 
 .about6{
-	font-family: troutbeck_demoregular;
+	font-family: titreg;
 	color: #fff;
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 	padding-left: 40px;
 	padding-top: 50px;
+	letter-spacing: -1px;
 }
 
 .gitlink {
-	font-family: troutbeck_demoregular;
+	font-family: titbold;
 	color: #fff;
 	width: fit-content;
 	align-items: baseline;
 	font-size: 39px;
+	letter-spacing: -1px;
 }
 
 .gitlink:hover {
@@ -294,7 +301,6 @@ a:hover {
 
 .linkContainer {
 	padding-top: 20px;
-	padding-bottom: 20px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -302,7 +308,7 @@ a:hover {
 }
 
 .hockey {
-	width: 60%;
+	width: 40%;
 	padding-left: 143px;
 	margin-left: auto;
 	margin-right: auto;
