@@ -1,6 +1,9 @@
 /* All page infomation */
 
 body {
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
 	Margin: 0px;
 	Padding: 0;
 	Font-family: Serif;
