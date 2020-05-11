@@ -189,7 +189,7 @@ a:hover {
 .socialrowpage {
 	float: left;
 	width: 33.33%;
-	padding-left: 805px;
+	padding-left: 795px;
 }
 
 .pageback {
@@ -209,7 +209,7 @@ a:hover {
 	background: url('./images/fullpage.png');
 	background-size: cover;
 	width: 100vw;
-	height: 2600px;
+	height: 2450px;
 	display: flex;
 	align-items: left;
 	flex-direction: column;
@@ -222,6 +222,7 @@ a:hover {
 	color: #fff;
 	text-align: center;
 	padding-top: 20px;
+	padding-bottom: 60px;
 	padding-left: 120px;
 	text-decoration: underline;
 }
@@ -317,12 +318,23 @@ a:hover {
 
 .aboutvid{
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 	align-items: center;
 	padding-left: 20px;
 }
 
 /* Portfolio Page */
+
+
+.pagebackport {
+	background: url('./images/fullpage.png');
+	background-size: cover;
+	width: 100vw;
+	height: 3000px;
+	display: flex;
+	align-items: left;
+	flex-direction: column;
+}
 
 .topportfolio{
 	vertical-align: middle;
