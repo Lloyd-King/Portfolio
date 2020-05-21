@@ -333,7 +333,7 @@ a:hover {
 	background: url('./images/fullpage.png');
 	background-size: cover;
 	width: 100vw;
-	height: 3000px;
+	height: 3600px;
 	display: flex;
 	align-items: left;
 	flex-direction: column;
@@ -362,10 +362,11 @@ a:hover {
 	font-family: titreg;
 	color: #fff;
 	text-align: center;
-	font-size: 25px;
+	font-size: 23px;
 	padding-left: 120px;
 	padding-top: 50px;
 	letter-spacing: -1px;
+	padding-bottom: 40px;
 }
 
 .port2 {
@@ -383,9 +384,9 @@ a:hover {
 	font-family: titreg;
 	color: #fff;
 	text-align: center;
-	font-size: 25px;
+	font-size: 23px;
 	padding-left: 120px;
-	padding-top: 30px;
+	padding-top: 40px;
 	letter-spacing: -1px;
 }
 
@@ -393,9 +394,25 @@ a:hover {
 	font-family: titreg;
 	color: #fff;
 	text-align: center;
-	font-size: 25px;
+	font-size: 23px;
 	padding-left: 120px;
 	padding-top: 30px;
+}
+
+.port5 {
+	font-family: troutbeck_demoregular;
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	padding-left: 120px;
+	text-decoration: underline;
+	padding-top: 65px;
+}
+
+.showvid {
+	padding-top: 100px;
+	align-self: center;
+	padding-left: 120px;
 }
 
 .skillsimg {
