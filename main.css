@@ -333,7 +333,7 @@ a:hover {
 	background: url('./images/fullpage.png');
 	background-size: cover;
 	width: 100vw;
-	height: 3600px;
+	height: 3650px;
 	display: flex;
 	align-items: left;
 	flex-direction: column;
@@ -474,7 +474,7 @@ a:hover {
 	justify-content: center;
 	width: 33.33%;
 	padding-top: 100px;
-	padding-left: 785px;
+	padding-left: 765px;
 	padding-bottom: 70px;
 }
 
