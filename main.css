@@ -496,7 +496,7 @@ a:hover {
 	font-size: 60px;
 	text-align: middle;
 	padding-left: 850px;
-	padding-top: 90px;
+	padding-top: 150px;
 	text-decoration: underline;
 }
 
@@ -505,15 +505,24 @@ a:hover {
 	color: #fff;
 	font-size: 60px;
 	text-align: middle;
-	padding-left: 850px;
+	padding-left: 795px;
 	padding-top: 90px;
 }
 
-.contactsheet{
+.contact3 {
 	font-family: troutbeck_demoregular;
 	color: #fff;
-	font-size: 30px;
+	font-size: 60px;
+	text-align: middle;
 	padding-left: 850px;
+	padding-top: 20px;
+}
+
+.contactsheet{
+	font-family: titreg;
+	color: #fff;
+	font-size: 30px;
+	padding-left: 800px;
 	padding-top: 90px;
 }
 
