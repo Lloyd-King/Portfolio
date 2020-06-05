@@ -1,533 +1,546 @@
 /* All page infomation */
 
 body {
-	width: 100%;
-	max-width: 100%;
-	overflow-x: hidden;
-	Margin: 0px;
-	Padding: 0;
-	Font-family: Serif;
-	background-color: #404040;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    Margin: 0px;
+    Padding: 0;
+    Font-family: Serif;
+    background-color: #404040;
 }
 
 @font-face {
-	font-family: 'troutbeck_demoregular';
-	src: url("font/troutbeck_demo-webfont.woff2") format('woff2'),
-		url("font/troutbeck_demo-webfont.woff") format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'troutbeck_demoregular';
+    src: url("font/troutbeck_demo-webfont.woff2") format('woff2'),
+        url("font/troutbeck_demo-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'titblack';
-	src: url("font/black/TitilliumWeb-Black.woff2") format('woff2'),
-		url("font/black/TitilliumWeb-Black.woff") format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'titblack';
+    src: url("font/black/TitilliumWeb-Black.woff2") format('woff2'),
+        url("font/black/TitilliumWeb-Black.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'titbold';
-	src: url("font/bold/TitilliumWeb-Bold.woff2") format('woff2'),
-		url("font/black/TitilliumWeb-Bold.woff") format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'titbold';
+    src: url("font/bold/TitilliumWeb-Bold.woff2") format('woff2'),
+        url("font/black/TitilliumWeb-Bold.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'titreg';
-	src: url("font/reg/TitilliumWeb-Regular.woff2") format('woff2'),
-		url("font/reg/TitilliumWeb-Regular.woff") format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'titreg';
+    src: url("font/reg/TitilliumWeb-Regular.woff2") format('woff2'),
+        url("font/reg/TitilliumWeb-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'titsemi';
-	src: url("font/semi/TitilliumWeb-SemiBold.woff2") format('woff2'),
-		url("font/semi/TitilliumWeb-SemiBold.woff") format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'titsemi';
+    src: url("font/semi/TitilliumWeb-SemiBold.woff2") format('woff2'),
+        url("font/semi/TitilliumWeb-SemiBold.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 p {
-	font-family: 'troutbeck_demoregular';
-	color: #fff;
-	text-align: center;
-	font-size: 30px;
-	padding-left: 120px;
+    font-family: 'troutbeck_demoregular';
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 120px;
 }
 
 /* Banner details */
 
 .banner {
-	height: 100%;
-	width: 160px;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #2a2b2d;
-	overflow-x: hidden;
-	padding-top: 10px;
-	padding-left: 6px;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2a2b2d;
+    overflow-x: hidden;
+    padding-top: 10px;
+    padding-left: 6px;
 }
 
 .logo {
-	width: 75%;
-	height: 25%;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	padding-left: 18px;
+    width: 75%;
+    height: 25%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 18px;
 }
 
 .menuitems {
-	font-family: troutbeck_demoregular;
-	font-size: 37px;
-	text-align: center;
-	letter-spacing: 1px;
-	color: white;
+    font-family: troutbeck_demoregular;
+    font-size: 37px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
 }
 
 a:link {
-	color: #fff;
+    color: #fff;
 }
 
 a:visited {
-	color: #fff;
+    color: #fff;
 }
 
 a:hover {
-	color: #ff003a;
+    color: #ff003a;
 }
 
 /* Homepage */
 
 .imageBanner {
-	background: url('./images/background.png');
-	background-position: center;
-	background-size: cover;
-	width: 100vw;
-	height: 860px;
-	display: flex;
-	align-items: left;
-	flex-direction: column;
+    background: url('./images/background.png');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 860px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
 }
 
 .imageBannerTitle {
-	font-size: 150px;
-	font-family: troutbeck_demoregular;
-	color: #fff;
-	padding-left: 350px;
+    font-size: 150px;
+    font-family: troutbeck_demoregular;
+    color: #fff;
+    padding-left: 350px;
 }
 
 .imageBannerSubtext {
-	font-size: 40px;
-	margin-top: 20px;
-	font-weight: light;
-	font-family: troutbeck_demoregular;
-	color: #fff;
-	padding-top: 150px;
-	padding-left: 600px;
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: light;
+    font-family: troutbeck_demoregular;
+    color: #fff;
+    padding-top: 150px;
+    padding-left: 600px;
 }
 
 .imageBannerSubtext1 {
-	font-size: 40px;
-	margin-top: 20px;
-	font-weight: light;
-	font-family: troutbeck_demoregular;
-	color: #fff;
-	padding-left: 475px;
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: light;
+    font-family: troutbeck_demoregular;
+    color: #fff;
+    padding-left: 475px;
 }
 
 /* Social Links */
 
 .socialrow {
-	float: left;
-	width: 33.33%;
-	padding-left: 475px;
+    float: left;
+    width: 33.33%;
+    padding-left: 475px;
 }
 
 .socialrow2::after {
-	content: "";
-	clear: both;
-	display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .menuitem {
-	user-select: none;
-	cursor: pointer;
+    user-select: none;
+    cursor: pointer;
 }
 
 .menuitem {
-	margin-bottom: 40px;
-	margin-top: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .imageBannerSubtext1 {
-	margin-bottom: 250px;
+    margin-bottom: 250px;
 }
 
 .socialImage {
-	width: 100px;
+    width: 100px;
 }
 
 #youTubeImage {
-	display: inline-block;
+    display: inline-block;
 
 }
 
 #twitterImage {
-	display: inline-block;
+    display: inline-block;
 
 }
 
 #instagramImage {
-	display: inline-block;
+    display: inline-block;
 
 }
 
 /* Pages other than Home */
 
 .socialrowpage {
-	float: left;
-	width: 33.33%;
-	padding-left: 795px;
+    float: left;
+    width: 33.33%;
+    padding-left: 795px;
 }
 
 .pageback {
-	background: url('./images/fullpage.png');
-	background-size: cover;
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	align-items: left;
-	flex-direction: column;
+    background: url('./images/fullpage.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
 
 }
 
 /* About Page */
 
 .pagebackabout {
-	background: url('./images/fullpage.png');
-	background-size: cover;
-	width: 100vw;
-	height: 2450px;
-	display: flex;
-	align-items: left;
-	flex-direction: column;
+    background: url('./images/fullpage.png');
+    background-size: cover;
+    width: 100vw;
+    height: 2450px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
 }
 
 
 .abouttitle {
-	font-size: 125px;
-	font-family: troutbeck_demoregular;
-	color: #fff;
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 60px;
-	padding-left: 120px;
-	text-decoration: underline;
+    font-size: 125px;
+    font-family: troutbeck_demoregular;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 120px;
+    text-decoration: underline;
 }
 
 .about1 {
-	font-family: titreg;
-	color: #fff;
-	text-align: center;
-	font-size: 25px;
-	padding-left: 120px;
-	padding-top: 50px;
-	letter-spacing: -1px;
+    font-family: titreg;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 120px;
+    padding-top: 50px;
+    letter-spacing: -1px;
 }
 
 .about2 {
-	font-family: titreg;
-	color: #fff;
-	text-align: center;
-	font-size: 25px;
-	padding-left: 120px;
-	padding-top: 50px;
-	letter-spacing: -1px;
+    font-family: titreg;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 120px;
+    padding-top: 50px;
+    letter-spacing: -1px;
 }
 
 .about3 {
-	font-family: titreg;
-	color: #fff;
-	text-align: center;
-	font-size: 25px;
-	padding-left: 120px;
-	padding-top: 30px;
-	letter-spacing: -1px;
+    font-family: titreg;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 120px;
+    padding-top: 30px;
+    letter-spacing: -1px;
 }
 
 .about4 {
-	font-family: titreg;
-	color: #fff;
-	text-align: center;
-	font-size: 25px;
-	padding-left: 120px;
-	padding-top: 50px;
-	letter-spacing: -1px;
+    font-family: titreg;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 120px;
+    padding-top: 50px;
+    letter-spacing: -1px;
 }
 
 .about5 {
-	font-family: titreg;
-	color: #fff;
-	text-align: center;
-	font-size: 25px;
-	padding-left: 120px;
-	padding-top: 50px;
-	letter-spacing: -1px;
+    font-family: titreg;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 120px;
+    padding-top: 50px;
+    letter-spacing: -1px;
 }
 
-.about6{
-	font-family: titreg;
-	color: #fff;
-	text-align: center;
-	font-size: 25px;
-	padding-left: 40px;
-	padding-top: 50px;
-	letter-spacing: -1px;
+.about6 {
+    font-family: titreg;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 50px;
+    letter-spacing: -1px;
 }
 
 .gitlink {
-	font-family: titbold;
-	color: #fff;
-	width: fit-content;
-	align-items: baseline;
-	font-size: 39px;
-	letter-spacing: -1px;
+    font-family: titbold;
+    color: #fff;
+    width: fit-content;
+    align-items: baseline;
+    font-size: 39px;
+    letter-spacing: -1px;
 }
 
 .gitlink:hover {
-	color: #ff003a;
+    color: #ff003a;
 }
 
 .linkContainer {
-	padding-top: 20px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hockey {
-	width: 40%;
-	padding-left: 143px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 50px;
-}	
+    width: 40%;
+    padding-left: 143px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
 
-.aboutvid{
-	padding-top: 20px;
-	padding-bottom: 0px;
-	align-items: center;
-	padding-left: 20px;
+.aboutvid {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    align-items: center;
+    padding-left: 20px;
 }
 
 /* Portfolio Page */
 
 
 .pagebackport {
-	background: url('./images/fullpage.png');
-	background-size: cover;
-	width: 100vw;
-	height: 3650px;
-	display: flex;
-	align-items: left;
-	flex-direction: column;
+    background: url('./images/fullpage.png');
+    background-size: cover;
+    width: 100vw;
+    height: 3650px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
 }
 
-.topportfolio{
-	vertical-align: middle;
-	font-family: troutbeck_demoregular;
-	font-size: 125px;
-	color: #fff;
-	text-align: center;
-	padding-bottom: 20px;
-	letter-spacing: 2px;
-	justify-content: center;
-	display: inline-block;
+.topportfolio {
+    vertical-align: middle;
+    font-family: troutbeck_demoregular;
+    font-size: 125px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    justify-content: center;
+    display: inline-block;
 }
 
-.portfoliologo{
-	width: 275px;
-	height: 150px;
-	padding-left: 50px;
-	padding-top: 50px;
+.portfoliologo {
+    width: 275px;
+    height: 150px;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 
 .port1 {
-	font-family: titreg;
-	color: #fff;
-	text-align: center;
-	font-size: 23px;
-	padding-left: 120px;
-	padding-top: 50px;
-	letter-spacing: -1px;
-	padding-bottom: 40px;
+    font-family: titreg;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    padding-left: 120px;
+    padding-top: 50px;
+    letter-spacing: -1px;
+    padding-bottom: 40px;
 }
 
 .port2 {
-	font-family: troutbeck_demoregular;
-	color: #fff;
-	text-align: center;
-	font-size: 40px;
-	padding-left: 120px;
-	padding-top: 100px;
-	text-decoration: underline;
-	letter-spacing: 0.2px;
+    font-family: troutbeck_demoregular;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 120px;
+    padding-top: 100px;
+    text-decoration: underline;
+    letter-spacing: 0.2px;
 }
 
 .port3 {
-	font-family: titreg;
-	color: #fff;
-	text-align: center;
-	font-size: 23px;
-	padding-left: 120px;
-	padding-top: 40px;
-	letter-spacing: -1px;
+    font-family: titreg;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    padding-left: 120px;
+    padding-top: 40px;
+    letter-spacing: -1px;
 }
 
 .port4 {
-	font-family: titreg;
-	color: #fff;
-	text-align: center;
-	font-size: 23px;
-	padding-left: 120px;
-	padding-top: 30px;
+    font-family: titreg;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    padding-left: 120px;
+    padding-top: 30px;
 }
 
 .port5 {
-	font-family: troutbeck_demoregular;
-	color: #fff;
-	text-align: center;
-	font-size: 40px;
-	padding-left: 120px;
-	text-decoration: underline;
-	padding-top: 65px;
+    font-family: troutbeck_demoregular;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 120px;
+    text-decoration: underline;
+    padding-top: 65px;
 }
 
 .showvid {
-	padding-top: 100px;
-	align-self: center;
-	padding-left: 120px;
+    padding-top: 100px;
+    align-self: center;
+    padding-left: 120px;
 }
 
 .skillsimg {
-	height: 50px;
-	width: 50px;
-	padding-left:150px;
-	padding-top:70px;
+    height: 50px;
+    width: 50px;
+    padding-left: 150px;
+    padding-top: 70px;
+}
+
+.skillsimg1 {
+    height: 50px;
+    width: 50px;
+    padding-left: 150px;
+    padding-top: 70px;
 }
 
 .rowport1 {
-	font-family: titreg;
-	color: #fff;
-	font-size: 20px;
-	justify-content: center;
-	align-items: center;
-	padding-left: 265px;
-	letter-spacing: -1px;
+    font-family: titreg;
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+
+    letter-spacing: -1px;
+    display: flex;
 }
 
-.rowport1::after{
-	content: "";
-	clear: both;
-	display: table;
+.rowport1::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .rowport2 {
-	font-family: titreg;
-	color: #fff;
-	font-size: 20px;
-	justify-content: center;
-	align-items: center;
-	padding-left: 470px;
-	letter-spacing: -1px;
+    font-family: titreg;
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+
+    letter-spacing: -1px;
+    display: flex;
+    height: 120px;
 }
 
-.rowport2::after{
-	content: "";
-	clear: both;
-	display: table;
+.rowport2::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .rowport3 {
-	font-family: titreg;
-	color: #fff;
-	font-size: 20px;
-	justify-content: center;
-	align-items: center;
-	padding-left: 560px;
-	letter-spacing: -1px;
+    font-family: titreg;
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+
+    letter-spacing: -1px;
+    display: flex;
+    height: 120px;
 }
 
-.rowport3::after{
-	content: "";
-	clear: both;
-	display: table;
+.rowport3::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .socialrowport {
-	justify-content: center;
-	width: 33.33%;
-	padding-top: 100px;
-	padding-left: 765px;
-	padding-bottom: 70px;
+    justify-content: center;
+    width: 33.33%;
+    padding-top: 100px;
+    padding-left: 765px;
+    padding-bottom: 70px;
 }
 
 /* Contact Page */
 
 .pagebackcontact {
-	background: url('./images/fullpage.png');
-	background-size: cover;
-	width: 100vw;
-	height: 860px;
-	display: flex;
-	align-items: left;
-	flex-direction: column;
+    background: url('./images/fullpage.png');
+    background-size: cover;
+    width: 100vw;
+    height: 860px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
 }
 
 .contact1 {
-	font-family: troutbeck_demoregular;
-	color: #fff;
-	font-size: 60px;
-	text-align: middle;
-	padding-left: 850px;
-	padding-top: 150px;
-	text-decoration: underline;
+    font-family: troutbeck_demoregular;
+    color: #fff;
+    font-size: 60px;
+    text-align: middle;
+    padding-left: 850px;
+    padding-top: 150px;
+    text-decoration: underline;
 }
 
 .contact2 {
-	font-family: troutbeck_demoregular;
-	color: #fff;
-	font-size: 60px;
-	text-align: middle;
-	padding-left: 795px;
-	padding-top: 90px;
+    font-family: troutbeck_demoregular;
+    color: #fff;
+    font-size: 60px;
+    text-align: middle;
+    padding-left: 795px;
+    padding-top: 90px;
 }
 
 .contact3 {
-	font-family: troutbeck_demoregular;
-	color: #fff;
-	font-size: 60px;
-	text-align: middle;
-	padding-left: 850px;
-	padding-top: 20px;
+    font-family: troutbeck_demoregular;
+    color: #fff;
+    font-size: 60px;
+    text-align: middle;
+    padding-left: 850px;
+    padding-top: 20px;
 }
 
-.contactsheet{
-	font-family: titreg;
-	color: #fff;
-	font-size: 30px;
-	padding-left: 800px;
-	padding-top: 90px;
+.contactsheet {
+    font-family: titreg;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 800px;
+    padding-top: 90px;
 }
 
-.WebContainer{
-    width:100%;
-    min-width:1000px;
-    height:auto;
-} 
+.WebContainer {
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+}
