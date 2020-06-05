@@ -531,17 +531,3 @@ a:hover {
     min-width:1000px;
     height:auto;
 } 
-
-.BeforeScroll
-{
-  height: 100px; /*Whatever you want*/
-  width: 100%; /*Whatever you want*/
-  display: none;
-}
-
-.Afterscroll
-{
-	height: 100px; /*Whatever you want*/
-	width: 100%; /*Whatever you want*/
-	display: block;
-  }
