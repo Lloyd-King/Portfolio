@@ -11,7 +11,7 @@ $(document).ready(function () {
 $(document).scroll(function () {
   var y = $(this).scrollTop();
   console.log("Current Scroll Amount: ", y);
-  if (y > 600) {
+  if (y > 800) {
     if (hidden) {
       hidden = false;
       $(".skillItem").fadeIn();
