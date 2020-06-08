@@ -8,13 +8,16 @@ $(document).ready(function () {
   console.log("Script Loaded");
 });
 
+
+//This is for the skills sections:
+
 $(document).scroll(function () {
   var y = $(this).scrollTop();
   console.log("Current Scroll Amount: ", y);
-  if (y > 800) {
+  if (y > 900) {
     if (hidden) {
       hidden = false;
-      $(".skillItem").fadeIn();
+      $(".skillItem, .port2").fadeIn();
       row2Pending = true;
       row3Pending = true;
       playRow2 = true;
@@ -57,3 +60,6 @@ function testHide() {
     hidden = true;
   }
 }
+
+
+
