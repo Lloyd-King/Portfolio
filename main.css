@@ -333,7 +333,7 @@ a:hover {
     background: url('./images/fullpage.png');
     background-size: cover;
     width: 100vw;
-    height: 3650px;
+    height: 9650px;
     display: flex;
     align-items: left;
     flex-direction: column;
@@ -369,6 +369,7 @@ a:hover {
     padding-top: 50px;
     letter-spacing: -1px;
     padding-bottom: 40px;
+
 }
 
 .port2 {
@@ -418,7 +419,6 @@ a:hover {
     font-size: 50px;
     padding-left: 120px;
     text-decoration: underline;
-    padding-top: 265px;
 }
 
 .exp {
