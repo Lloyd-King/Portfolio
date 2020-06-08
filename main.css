@@ -340,35 +340,26 @@ a:hover {
 }
 
 .topportfolio {
-    vertical-align: middle;
     font-family: troutbeck_demoregular;
     font-size: 125px;
     color: #fff;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 20px;
     letter-spacing: 2px;
-    justify-content: center;
-    display: inline-block;
 }
 
 .portfoliologo {
     width: 275px;
     height: 150px;
-    padding-left: 50px;
-    padding-top: 50px;
+    padding-left: 120px;
+    padding-bottom: 120px;
 }
 
 
 .port1 {
     font-family: titreg;
     color: #fff;
-    text-align: center;
     font-size: 23px;
     padding-left: 120px;
-    padding-top: 50px;
     letter-spacing: -1px;
-    padding-bottom: 40px;
 
 }
 
@@ -412,14 +403,6 @@ a:hover {
     padding-top: 265px;
 }
 
-.test {
-    font-family: troutbeck_demoregular;
-    color: #fff;
-    text-align: center;
-    font-size: 50px;
-    padding-left: 120px;
-    text-decoration: underline;
-}
 
 .exp {
     font-family: troutbeck_demoregular;
@@ -600,3 +583,17 @@ a:hover {
     min-width: 1000px;
     height: auto;
 }
+
+/* Portfolio test page */
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    scroll-snap-align: center;
+}
+
