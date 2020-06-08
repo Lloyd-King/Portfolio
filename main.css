@@ -8,7 +8,6 @@ body {
     Padding: 0;
     Font-family: Serif;
     background-color: #404040;
-
 }
 
 @font-face {
@@ -404,14 +403,24 @@ a:hover {
     padding-top: 265px;
 }
 
+.intro{
+    font-family: titreg;
+    color: #fff;
+    font-size: 20px;
+}
+
+.video{
+    font-family: troutbeck_demoregular;
+    color: #fff;
+    font-size: 40px;
+    text-decoration: underline;
+    letter-spacing: 0.2px;
+}
 
 .exp {
     font-family: troutbeck_demoregular;
     color: #fff;
-    text-align: center;
     font-size: 40px;
-    padding-left: 120px;
-    padding-top: 100px;
     text-decoration: underline;
     letter-spacing: 0.2px;
 }
@@ -419,10 +428,7 @@ a:hover {
 .achive {
     font-family: troutbeck_demoregular;
     color: #fff;
-    text-align: center;
     font-size: 40px;
-    padding-left: 120px;
-    padding-top: 100px;
     text-decoration: underline;
     letter-spacing: 0.2px;
 }
@@ -430,10 +436,7 @@ a:hover {
 .educate {
     font-family: troutbeck_demoregular;
     color: #fff;
-    text-align: center;
     font-size: 40px;
-    padding-left: 120px;
-    padding-top: 100px;
     text-decoration: underline;
     letter-spacing: 0.2px;
 }
@@ -441,10 +444,7 @@ a:hover {
 .refer {
     font-family: troutbeck_demoregular;
     color: #fff;
-    text-align: center;
     font-size: 40px;
-    padding-left: 120px;
-    padding-top: 100px;
     text-decoration: underline;
     letter-spacing: 0.2px;
 }
@@ -590,6 +590,7 @@ a:hover {
 .container {
     overflow: scroll;
     height: 100vh;
+    scroll-behavior: smooth;
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
