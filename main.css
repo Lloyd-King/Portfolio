@@ -333,10 +333,7 @@ a:hover {
     background: url('./images/fullpage.png');
     background-size: cover;
     width: 100vw;
-    height: 9650px;
-    display: flex;
-    align-items: left;
-    flex-direction: column;
+    height: 100vh;
 }
 
 .topportfolio {
@@ -415,6 +412,7 @@ a:hover {
     font-size: 40px;
     text-decoration: underline;
     letter-spacing: 0.2px;
+    padding-left: 125px;
 }
 
 .exp {
@@ -423,6 +421,7 @@ a:hover {
     font-size: 40px;
     text-decoration: underline;
     letter-spacing: 0.2px;
+    padding-left: 125px;
 }
 
 .achive {
@@ -431,6 +430,7 @@ a:hover {
     font-size: 40px;
     text-decoration: underline;
     letter-spacing: 0.2px;
+    padding-left: 125px;
 }
 
 .educate {
@@ -439,6 +439,7 @@ a:hover {
     font-size: 40px;
     text-decoration: underline;
     letter-spacing: 0.2px;
+    padding-left: 125px;
 }
 
 .refer {
@@ -447,6 +448,7 @@ a:hover {
     font-size: 40px;
     text-decoration: underline;
     letter-spacing: 0.2px;
+    padding-left: 125px;
 }
 
 .showvid {
