@@ -220,11 +220,10 @@ a:hover {
 
 
 .abouttitle {
-    font-size: 125px;
+    font-size: 80px;
     font-family: troutbeck_demoregular;
     color: #fff;
     text-align: center;
-    padding-top: 20px;
     padding-bottom: 60px;
     padding-left: 120px;
     text-decoration: underline;
@@ -235,9 +234,18 @@ a:hover {
     color: #fff;
     text-align: center;
     font-size: 25px;
-    padding-left: 120px;
-    padding-top: 50px;
+    padding-left: 300px;
     letter-spacing: -1px;
+    width: 1300px;
+    float: right;
+}
+
+.git{
+    font-family: troutbeck_demoregular;
+    color: #fff;
+    font-size: 60px;
+    padding-left: 125px;
+    text-decoration: underline;
 }
 
 .about2 {
@@ -256,7 +264,6 @@ a:hover {
     text-align: center;
     font-size: 25px;
     padding-left: 120px;
-    padding-top: 30px;
     letter-spacing: -1px;
 }
 
@@ -266,7 +273,6 @@ a:hover {
     text-align: center;
     font-size: 25px;
     padding-left: 120px;
-    padding-top: 50px;
     letter-spacing: -1px;
 }
 
@@ -312,11 +318,10 @@ a:hover {
 }
 
 .hockey {
-    width: 40%;
+    width: 55%;
     padding-left: 143px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
 }
 
 .aboutvid {
@@ -325,6 +330,7 @@ a:hover {
     align-items: center;
     padding-left: 20px;
 }
+
 
 /* Portfolio Page */
 
@@ -391,9 +397,11 @@ a:hover {
 }
 
 .intro{
-    font-family: titreg;
+    font-family: troutbeck_demoregular;
     color: #fff;
-    font-size: 20px;
+    font-size: 60px;
+    padding-left: 425px;
+    text-decoration: underline;
 }
 
 .video{
@@ -516,11 +524,7 @@ a:hover {
 }
 
 .socialrowport {
-    justify-content: center;
     width: 33.33%;
-    padding-top: 100px;
-    padding-left: 765px;
-    padding-bottom: 70px;
 }
 
 /* Contact Page */
@@ -607,6 +611,17 @@ a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.aboutSection1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
     height: 100vh;
     scroll-snap-align: start;
     position: relative;
