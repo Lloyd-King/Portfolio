@@ -5,14 +5,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
 
-<style> 
-
-html {
-    scroll-behavior: smooth;
-}
-
-</style>
-
 <head>
 
     <title>Lloyd King Portfolio</title>
@@ -32,7 +24,7 @@ html {
             <a href="about.html" style="text-decoration: none">
                 <div class="menuitem">About</div>
             </a>
-            <a href="portfolio.html" style="text-decoration: none">
+            <a href="newportpage.html" style="text-decoration: none">
                 <div class="menuitem">Portfolio</div>
             </a>
             <a href="contact.html" style="text-decoration: none">
@@ -42,20 +34,15 @@ html {
     </div>
 </header>
 
-<body>
+<div class="pagebackport">
+    <div class="container">
 
-    <div class="pagebackport">
-
-        
-        
+        <!-- intro section -->
+        <section class="portfolioSection" id="intro">
             <div class="topportfolio">
                 <img src="images/logoback.png" alt="Logo" class="portfoliologo">
                 Lloyd King
             </div>
-
-            <!-- Look into this to centralise the text -->
-
-
             <div class="port1">
                 Welcome to my portfolio page. This page will not go into much detail about myself, thats all been stated on
                 my about page.
@@ -68,13 +55,11 @@ html {
                 Please have a look and if you have any further questions or want to know more please ask me on the contact
                 page.
             </div>
+        </section>
 
-        
-       
-       
-        
-        
-            <div class="port5" id="showvid">
+        <!-- Video section -->
+        <section class="portfolioSection" id="showvid">
+            <div class="video">
                 My most recent video
             </div>
 
@@ -83,9 +68,10 @@ html {
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-        
+        </section>
 
-        
+        <!-- Skills section -->
+        <section class="portfolioSection" id="skills">
             <div class="port2">
                 Skills
             </div>
@@ -129,9 +115,10 @@ html {
                 <div class="skillItem3"><img src="images/Css3.png" alt="Css3" class="skillsimg">
                     Basic CSS 3</div>
             </div>
-        
+        </section>
 
-        
+        <!-- Experience section -->
+        <section class="portfolioSection" id="exp">
             <div class="exp">
                 Experience
             </div>
@@ -145,9 +132,12 @@ html {
             <div class="port3">
                 Editor/Cameraman - Kirkleetham Owl Centre
             </div>
-        
 
-        
+
+        </section>
+
+        <!-- Achievements section -->
+        <section class="portfolioSection" id="achieve">
             <div class="achive" id="achive">
                 Achievments
             </div>
@@ -163,10 +153,12 @@ html {
                 <br><br>
                 Black Belt in Shotokan Karate - Awarded in 2010
             </div>
-        
 
 
-        
+        </section>
+
+        <!-- Education section-->
+        <section class="portfolioSection" id="education">
             <div class="educate">
                 Education
             </div>
@@ -179,10 +171,11 @@ html {
                 Second class honours Degree - Broadcast Media Production
                 <br><br>
             </div>
-        
 
-        
+        </section>
 
+        <!-- Reference section-->
+        <section class="portfolioSection" id="references">
             <div class="refer">
                 References
             </div>
@@ -202,7 +195,9 @@ html {
             <div class="port4">
                 Lucy Skelton - Lectuer at Teesside University
             </div>
-        
+
+
+
 
             <div class="socialrowport">
                 <div class="socialrow2">
@@ -214,8 +209,6 @@ html {
                             alt="Instagram" class="socialImage" id="instagramImage"></a>
                 </div>
             </div>
-        
+        </section>
     </div>
-</body>
-
-</html>
+</div>  

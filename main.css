@@ -390,16 +390,6 @@ a:hover {
     padding-top: 30px;
 }
 
-.port5 {
-    font-family: troutbeck_demoregular;
-    color: #fff;
-    text-align: center;
-    font-size: 50px;
-    padding-left: 120px;
-    text-decoration: underline;
-    padding-top: 265px;
-}
-
 .intro{
     font-family: titreg;
     color: #fff;
@@ -599,6 +589,18 @@ a:hover {
 }
 
 .portfolioSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.aboutSection {
     width: 100%;
     display: flex;
     flex-direction: column;
