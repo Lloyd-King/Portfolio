@@ -190,9 +190,9 @@ a:hover {
 /* Pages other than Home */
 
 .socialrowpage {
-    float: left;
+    padding-left: 40px;
+    padding-top: 80px;
     width: 33.33%;
-    padding-left: 795px;
 }
 
 .pageback {
@@ -524,6 +524,8 @@ a:hover {
 }
 
 .socialrowport {
+    padding-left: 110px;
+    padding-top: 80px;
     width: 33.33%;
 }
 
