@@ -74,8 +74,8 @@ p {
 }
 
 .logo {
-    width: 75%;
-    height: 25%;
+    width: 100px;
+    height: 60px;
     padding-bottom: 5px;
     padding-top: 5px;
     padding-left: 18px;
@@ -105,10 +105,10 @@ a:hover {
 
 .imageBanner {
     background: url('./images/background.png');
-    background-position: center;
+    background-position: right;
     background-size: cover;
     width: 100vw;
-    height: 860px;
+    height: 100vh;
     display: flex;
     align-items: left;
     flex-direction: column;
