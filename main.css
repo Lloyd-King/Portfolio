@@ -578,7 +578,7 @@ a:hover {
 /* Portfolio test page */
 
 .container {
-    overflow: scroll;
+    overflow-y: scroll;
     height: 100vh;
     scroll-behavior: smooth;
     scroll-snap-type: mandatory;
