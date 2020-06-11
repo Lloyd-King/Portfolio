@@ -347,13 +347,14 @@ a:hover {
     font-size: 125px;
     color: #fff;
     letter-spacing: 2px;
+    padding-bottom: 80px;
+    justify-content: center;
 }
 
 .portfoliologo {
     width: 275px;
     height: 150px;
     padding-left: 120px;
-    padding-bottom: 120px;
 }
 
 
