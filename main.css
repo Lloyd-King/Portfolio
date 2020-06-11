@@ -87,6 +87,8 @@ p {
     text-align: center;
     letter-spacing: 1px;
     color: white;
+    justify-content: center;    
+    padding-top: 120px;
 }
 
 a:link {
@@ -190,7 +192,6 @@ a:hover {
 /* Pages other than Home */
 
 .socialrowpage {
-    padding-left: 40px;
     padding-top: 80px;
     width: 33.33%;
 }
@@ -225,7 +226,7 @@ a:hover {
     color: #fff;
     text-align: center;
     padding-bottom: 60px;
-    padding-left: 120px;
+    
     text-decoration: underline;
 }
 
@@ -234,7 +235,7 @@ a:hover {
     color: #fff;
     text-align: center;
     font-size: 25px;
-    padding-left: 300px;
+    
     letter-spacing: -1px;
     width: 1300px;
     float: right;
@@ -244,7 +245,7 @@ a:hover {
     font-family: troutbeck_demoregular;
     color: #fff;
     font-size: 60px;
-    padding-left: 125px;
+    
     text-decoration: underline;
 }
 
@@ -253,7 +254,7 @@ a:hover {
     color: #fff;
     text-align: center;
     font-size: 25px;
-    padding-left: 120px;
+    
     padding-top: 50px;
     letter-spacing: -1px;
 }
@@ -263,7 +264,7 @@ a:hover {
     color: #fff;
     text-align: center;
     font-size: 25px;
-    padding-left: 120px;
+    
     letter-spacing: -1px;
 }
 
@@ -272,7 +273,7 @@ a:hover {
     color: #fff;
     text-align: center;
     font-size: 25px;
-    padding-left: 120px;
+    
     letter-spacing: -1px;
 }
 
@@ -281,7 +282,7 @@ a:hover {
     color: #fff;
     text-align: center;
     font-size: 25px;
-    padding-left: 120px;
+    
     padding-top: 50px;
     letter-spacing: -1px;
 }
@@ -291,7 +292,7 @@ a:hover {
     color: #fff;
     text-align: center;
     font-size: 25px;
-    padding-left: 40px;
+    
     padding-top: 50px;
     letter-spacing: -1px;
 }
@@ -319,7 +320,7 @@ a:hover {
 
 .hockey {
     width: 55%;
-    padding-left: 143px;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -328,7 +329,14 @@ a:hover {
     padding-top: 20px;
     padding-bottom: 0px;
     align-items: center;
-    padding-left: 20px;
+    
+}
+
+.aboutintro{
+    font-family: troutbeck_demoregular;
+    color: #fff;
+    font-size: 60px;
+    text-decoration: underline;
 }
 
 
@@ -599,7 +607,7 @@ a:hover {
 }
 
 .aboutSection {
-    width: 100%;
+    width: calc(100%-160px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -608,15 +616,5 @@ a:hover {
     height: 100vh;
     scroll-snap-align: start;
     position: relative;
-}
-
-.aboutSection1 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    height: 100vh;
-    scroll-snap-align: start;
-    position: relative;
+    margin-left: 160px;
 }
