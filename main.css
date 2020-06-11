@@ -548,34 +548,25 @@ a:hover {
     font-size: 60px;
     text-align: middle;
     padding-left: 850px;
-    padding-top: 150px;
+    padding-top: 50px;
     text-decoration: underline;
 }
 
 .contact2 {
     font-family: troutbeck_demoregular;
     color: #fff;
-    font-size: 60px;
+    font-size: 45px;
     text-align: middle;
-    padding-left: 795px;
-    padding-top: 90px;
-}
-
-.contact3 {
-    font-family: troutbeck_demoregular;
-    color: #fff;
-    font-size: 60px;
-    text-align: middle;
-    padding-left: 850px;
-    padding-top: 20px;
+    padding-left: 345px;
+    padding-top: 50px;
 }
 
 .contactsheet {
     font-family: titreg;
     color: #fff;
     font-size: 30px;
-    padding-left: 800px;
-    padding-top: 90px;
+    padding-left: 550px;
+    padding-top: 50px;
 }
 
 .WebContainer {
